@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amigo Ally</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Amigo Ally</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#grievances">Submit Grievance</a></li>
+          <li><a href="#suggestions">Submit Suggestion</a></li>
+          <li><a href="#status">Check Status</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Welcome to Amigo Ally</h2>
+      <p>
+        Your voice matters! Use this platform to share your grievances and
+        suggestions.
+      </p>
+    </section>
+
+    <section id="grievances">
+      <h2>Submit a Grievance</h2>
+      <form>
+        <label for="grievance">Describe your grievance:</label><br />
+        <textarea
+          id="grievance"
+          rows="4"
+          placeholder="Type your grievance here..."
+        ></textarea
+        ><br />
+        <button type="submit">Submit Grievance</button>
+      </form>
+    </section>
+
+    <section id="suggestions">
+      <h2>Submit a Suggestion</h2>
+      <form>
+        <label for="suggestion">Your suggestion:</label><br />
+        <textarea
+          id="suggestion"
+          rows="4"
+          placeholder="Type your suggestion here..."
+        ></textarea
+        ><br />
+        <button type="submit">Submit Suggestion</button>
+      </form>
+    </section>
+
+    <section id="status">
+      <h2>Check Grievance Status</h2>
+      <p>Enter your grievance ID to check the status:</p>
+      <input type="text" placeholder="Grievance ID" />
+      <button type="submit">Check Status</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Amigo Bangladesh Ltd. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
